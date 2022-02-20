@@ -1,0 +1,16 @@
+body{
+    background-color: rgba(0, 0, 0, 0.877);
+}
+#main{
+    position: absolute;
+    left: 18%;
+    top: 30%;
+    height: auto;
+    width: auto;
+
+}
+#info{
+    text-align: center;
+    margin-top: 60px;
+    color: whitesmoke;
+}

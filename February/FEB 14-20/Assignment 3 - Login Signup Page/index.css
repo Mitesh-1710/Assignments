@@ -1,0 +1,69 @@
+body{
+    background-color: rgba(155, 154, 235, 0.952);
+}
+#main{
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    height: 350px;
+    width: 550px;
+    background-color: rgba(0, 0, 0, 0.877);
+    border-radius: 15px;
+    border: 1px solid whitesmoke;
+}
+#login{
+    margin-top: 30px;
+    height: auto;
+    width: auto;
+}
+#center{
+    margin-left: 42%;
+    color: whitesmoke;
+
+}
+form{
+    margin-left: 32px;
+}
+input{
+    height: 40px;
+    width: 90%;
+    margin: 5px;
+    border: 1px solid black;
+    font-family: monospace;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: whitesmoke;
+    padding-left: 15px;
+}
+#input_submit{
+    width: 30%;
+    height: 40px;
+    margin-left: 30%;
+    margin-top: 5%;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(80, 9, 146);
+    color: whitesmoke;
+    border: 1px solid black;
+    cursor: pointer;
+    
+}
+#forgotpassword{
+    margin-left: 62%;
+}
+#forgotpassword a{
+    color: whitesmoke;
+}
+
+#notUser{
+    color: whitesmoke;
+    margin-left: 31%;
+}
+#signup{
+    color: whitesmoke;
+    font-weight: bold;
+    margin-left: 6px;
+}
+#singup_link{
+    margin-top: 15px;
+}

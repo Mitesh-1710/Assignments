@@ -1,0 +1,40 @@
+body {
+    background-color: rgba(0, 0, 0, 0.877);
+}
+
+#main {
+    margin: 20px;
+    height: auto;
+    width: auto;
+    background-color: whitesmoke;
+    position: absolute;
+    margin-left: 20%;
+}
+
+table {
+    height: auto;
+    width: auto;
+}
+
+tr {
+    margin-top: 10px;
+}
+
+td {
+    border: 2px solid black;
+    margin: 20px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+audio {
+    height: 30px;
+    width: 200px;
+}
+
+label {
+    color: black;
+}
