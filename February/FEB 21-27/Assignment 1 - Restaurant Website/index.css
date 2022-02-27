@@ -59,6 +59,11 @@ aside {
     display: inline;
 }
 
+#hero
+{
+    text-align: center;
+}
+
 #hero img {
     margin-left: 2px;
 }
