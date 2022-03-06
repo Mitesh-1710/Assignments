@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Sibling Selector</title>
+    <style>
+        body{
+            padding: 50px;
+        }
+        div ~ h1{
+            text-align: center;
+            text-decoration: underline;
+            border: 2px solid red;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>h1 without Div</h1>
+    <div>
+        <h1>h1 inside Div 1</h1>
+    </div>
+    <p>P TAG Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis libero non architecto quo quis? Magnam, saepe? Fugit praesentium vitae, labore veritatis veniam ducimus natus sit. Ea vero iusto suscipit exercitationem? </p>
+    <h1>h1 Heading which is next sibiling of the specified element</h1>
+    <h1>h1 Heading</h1>
+</body>
+</html>

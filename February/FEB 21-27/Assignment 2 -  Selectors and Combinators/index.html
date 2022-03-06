@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors and Combinators</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>The Article</h1>
+            <h2>CSS Selectors and Combinators</h2>
+        </header>
+        <section id="mains">
+
+            <section>
+                <h1 class="subheading">SELECTORS</h1>
+                <div class="container">
+                    <h1>1. Universal Selector :-</h1>
+                    <p>The universal selector (*) selects all HTML elements on the page.</p>
+                    <div class="sectionInside">
+                    <h2 style="color: purple;">Example:</h2>
+
+                        <pre>
+    *{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        color: peru;
+        font-size: 30px;
+    }
+</pre>
+                        <iframe src="selectors/universalSelector.html" frameborder="0"></iframe>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <h1>2. ID Selector :-</h1>
+                    <p>The #id selector styles the element with the specified id.</p>
+                    <div class="sectionInside">
+                        <h2 style="color: purple;">Example:</h2>
+                        <pre>
+    #container{
+        background-color: black;
+        color: azure;
+        padding: 20px;
+    }
+</pre>
+                        <iframe src="selectors/idSelector.html" frameborder="0"></iframe>
+                    </div>
+                </div>
+
+
+
+                <div class="container">
+                    <h1>3. Class Selector :-</h1>
+                    <p>The .class selector selects elements with a specific class attribute.</p>
+                    <div class="sectionInside">
+                        <h2 style="color: purple;">Example:</h2>
+                        <pre>
+    .nameBold{
+        color: aliceblue;
+        background-color: black;
+        padding: 5px;
+    }
+</pre>
+                        <iframe src="selectors/classSelector.html" frameborder="0"></iframe>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <h1>4. Element Selector :-</h1>
+                    <p>The element selector selects all elements with the specified element name.</p>
+                    <div class="sectionInside">
+                        <h2 style="color: purple;">Example:</h2>
+                        <pre>
+    p{
+        color: blueviolet;
+        background-color: rgb(70, 66, 66);
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 
+                            'Arial Narrow', Arial, sans-serif;
+        padding: 20px;
+    }
+</pre>
+                        <iframe src="selectors/typeSelector.html" frameborder="0"></iframe>
+                    </div>
+                </div>
+
+                <div class="container" style="border-bottom: 2px dotted purple;">
+                    <h1>5. Group Selector :-</h1>
+                    <p>To style several elements with the same style, separate each element name with a comma.</p>
+                    <div class="sectionInside">
+                        <h2 style="color: purple;">Example:</h2>
+                        <pre>
+    h1 , p {
+        text-align: center;
+        color: rgb(36, 184, 134);
+        background-color: azure;
+        text-decoration: wavy;
+        padding: 10px;
+    }
+</pre>
+                        <iframe src="selectors/groupSelectors.html" frameborder="0"></iframe>
+                    </div>
+                </div>
+
+            </section>
+            <section>
+                <h1 class="subheading" style="padding-top: 50px;">COMBINATORS</h1>
+                <div class="container">
+                    <h1>1. Descendant Selector :-</h1>
+                    <p>The descendant selector matches all elements that are descendants of a specified element.</p>
+                    <div class="sectionInside">
+                        <h2 style="color: purple;">Example:</h2>
+
+
+                        <pre>
+    div p{
+        color: blanchedalmond;
+        background-color: rgb(90, 88, 88);
+    }
+    
+    p span{
+        background-color: black;
+        color: purple;
+        padding: 5px;
+    }
+</pre>
+                        <iframe src="combinators/descendant.html" frameborder="0"></iframe>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <h1>2. Child Selector :-</h1>
+                    <p>The child selector selects all elements that are the children of a specified element.</p>
+                    <div class="sectionInside">
+                        <h2 style="color: purple;">Example:</h2>
+                        <pre>   
+    div > h1{
+        color: black;
+        background-color: blueviolet;
+        padding: 5px;
+        text-decoration: underline;
+    }
+</pre>
+                        <iframe src="combinators/child.html" frameborder="0"></iframe>
+                    </div>
+                </div>
+
+
+
+                <div class="container">
+                    <h1>3. Adjacent Sibling Selector :-</h1>
+                    <p>The adjacent sibling selector is used to select an element that is directly after another
+                        specific element.
+                        Sibling elements must have the same parent element, and "adjacent" means "immediately
+                        following".</p>
+                    <div class="sectionInside">
+                        <h2 style="color: purple;">Example:</h2>
+                        <pre>
+    div + p {
+        color: purple;
+        background-color: black;
+    }
+</pre>
+                        <iframe src="combinators/adjacent.html" frameborder="0"></iframe>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <h1>4. General Sibling Selector:-</h1>
+                    <p>The general sibling selector selects all elements that are next siblings of a specified element.
+                    </p>
+                    <div class="sectionInside">
+                        <h2 style="color: purple;">Example:</h2>
+                        <pre>
+    div ~ h1{
+        text-align: center;
+        text-decoration: underline;
+        border: 2px solid red;
+        background-color: black;
+        color: white;
+    }
+</pre>
+                        <iframe src="combinators/general.html" frameborder="0"></iframe>
+                    </div>
+                </div>
+
+
+            </section>
+
+        </section>
+    </main>
+</body>
+
+</html>
