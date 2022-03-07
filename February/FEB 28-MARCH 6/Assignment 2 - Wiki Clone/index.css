@@ -9,7 +9,7 @@ nav{
     display: flex;
     background-color: #F5F5F5;
     padding: 15px 0px 15px 15px;
-    height: 4vh;
+    height: 38px;
     justify-content: space-between;
     border-bottom: 1px solid #EBEBEB;
     position: sticky;
@@ -83,7 +83,7 @@ nav button:hover{
     height: auto;
     position: sticky;
     align-self: flex-start;
-    top: 7.1vh;
+    top: 70px;
 }
 
 .main{
