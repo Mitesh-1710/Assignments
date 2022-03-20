@@ -1,37 +1,42 @@
 body {
     background-color: rgba(0, 0, 0, 0.884);
-    margin: 0;
+    display: flex;
+    box-sizing: border-box;
+    
 }
-.nav{
-    background-color: rgb(10, 64, 66);
-    color: rgb(231, 213, 188);
-    border: 2px solid aqua;
-    padding: 15px;
-    margin-top: 10px;
-    height: 200px;
-    position: sticky;
-    top:0;
-}
-nav a{
-    color: aqua;
-    padding: 15px;
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 #month {
     height: auto;
-    width: 50%;
+    width: 70%;
     background-color: rgb(10, 64, 66);
     color: rgb(231, 213, 188);
     border: 2px solid aqua;
-    margin-left: 20vw;
-    margin-top: 10px;
-    padding: 15px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 15vw;
 }
-
+nav{
+    height: 200px;
+    background-color: rgb(10, 64, 66);
+    color: rgb(231, 213, 188);
+    border: 2px solid aqua;
+    margin: 10px;
+    padding: 20px;
+    position: sticky;
+    top:18px;
+    width: 160px;
+}
+nav a{
+    padding: 10px;
+}
 #center {
     text-align: center;
 }
-
-#week {
+.week {
     margin-left: 10px;
 }
 
@@ -48,4 +53,8 @@ nav a{
 a {
     color: aqua;
 
+}
+
+a:hover{
+    color: rgb(40, 199, 199);
 }
