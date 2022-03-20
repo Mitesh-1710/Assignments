@@ -1,4 +1,4 @@
- //Program to Implement mathematical operation functions
+//Program To Implement Mathematical Operation Functions.
 function addtion(a,b){
     return a + b;
 }
