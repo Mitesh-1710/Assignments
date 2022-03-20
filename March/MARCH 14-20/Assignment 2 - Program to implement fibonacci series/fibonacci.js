@@ -3,7 +3,7 @@ let a = 0;
 let b = 1;
 console.log(a);
 console.log(b);
-for(i = 1; i<=20 ; i++)
+for(i = 3; i<=20 ; i++)
 {   
     let result = a + b;
     console.log(result);
