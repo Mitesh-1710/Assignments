@@ -1,4 +1,4 @@
-//Program To Implement Fibonacci Series
+//Program To Implement Fibonacci Series.
 let a = 0;
 let b = 1;
 console.log(a);
