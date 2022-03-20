@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci Series</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(10, 64, 66);
+            color: rgb(231, 213, 188);
+            flex-direction: column;
+        }
+        h1{
+            font-size: 40px;
+        }
+        code{
+            padding: 30px;
+            border: 5px solid rgb(231, 213, 188);
+            width: 60%;
+            font-size: 30px;
+            background-color: aliceblue;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Open Console To See The Results</h1>
+    <code>
+        //Program To Implement Fibonacci Series
+        <br>
+        <br>
+        let a = 0;
+        <br>
+        let b = 1;
+        <br>
+        <br>
+        console.log(a);
+        <br>
+        console.log(b);
+        <br>
+        <br>
+        for(i = 1; i&#60;20 ; i++)
+        {   
+            <br>
+            <br>
+            &nbsp;let result = a + b;
+            <br>
+            &nbsp;console.log(result);
+            <br>
+            &nbsp;a = b;
+            <br>
+            &nbsp;b = result;
+            <br>
+            <br>
+        }
+    </code>
+    <script src="fibonacci.js"></script>
+</body>
+</html>
