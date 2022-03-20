@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(43, 42, 42);
+}
+h1{
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px black;
+
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    padding: 12px;
+}
+
+img {
+    height: 300px;
+    width: 500px;
+    border: solid 2px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0px whitesmoke;
+}
+
+
+img:hover {
+    box-shadow: 0 8px 20px 0px whitesmoke;
+}
